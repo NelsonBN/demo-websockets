@@ -25,7 +25,7 @@ namespace Demo.WSocket.Client
                     while(client.State == WebSocketState.Open)
                     {
 
-                        Console.Write("> ");
+                        Console.Write("Your message > ");
                         var clientMessage = Console.ReadLine();
 
                         if(!string.IsNullOrWhiteSpace(clientMessage))

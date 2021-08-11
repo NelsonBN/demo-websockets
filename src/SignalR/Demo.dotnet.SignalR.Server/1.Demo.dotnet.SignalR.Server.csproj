@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <RootNamespace>Demo.dotnet.SignalR.Server</RootNamespace>
+    <AssemblyName>Demo.dotnet.SignalR.Server</AssemblyName>
+
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+  </ItemGroup>
+
+
+</Project>

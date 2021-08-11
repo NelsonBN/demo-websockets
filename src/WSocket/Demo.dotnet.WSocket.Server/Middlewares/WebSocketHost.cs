@@ -19,7 +19,7 @@ namespace Demo.WSocket.Server.Middlewares
                 while(!result.CloseStatus.HasValue)
                 {
                     string clientMessage = Encoding.UTF8.GetString(new ArraySegment<byte>(buffer, 0, result.Count));
-                    Console.WriteLine($"The client said: {clientMessage}");
+                    Console.WriteLine($"Client message: {clientMessage}");
 
                     await webSocket.SendAsync(
                         new ArraySegment<byte>(

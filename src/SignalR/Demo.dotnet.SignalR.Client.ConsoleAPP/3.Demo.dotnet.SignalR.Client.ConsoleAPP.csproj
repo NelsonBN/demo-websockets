@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <RootNamespace>Demo.dotnet.SignalR.Client.ConsoleAPP</RootNamespace>
+    <AssemblyName>Demo.dotnet.SignalR.Client.ConsoleAPP</AssemblyName>
+
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="5.0.9" />
+  </ItemGroup>
+
+
+</Project>
