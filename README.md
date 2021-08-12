@@ -63,6 +63,19 @@ cd src\SignalR\Demo.dotnet.SignalR.Client.ConsoleAPP
 dotnet run
 ```
 
+**Run Ionic client (TypeScript)**
+```bash
+cd src\SignalR\Demo.dotnet.SignalR.Client.Ionic
+ionic serve
+```
+
+#### TypeScript installation
+```bash
+npm install @aspnet/signalr 
+```
+
+
+
 #### Diagnostic
 ##### Server-side logging
 [Original source](https://docs.microsoft.com/en-us/aspnet/core/signalr/diagnostics?view=aspnetcore-5.0#server-side-logging)
@@ -124,6 +137,7 @@ let connection = new signalR.HubConnectionBuilder()
 
 ***Thanks for the contributions from:***
 - [@Gustavo Silva](https://www.kaggle.com/gustavofmsilva)
+- [@Ruben Miquelino](https://github.com/rubenptm)
 
 
 

@@ -30,11 +30,14 @@ namespace Demo.dotnet.SignalR.Server
             // Make sure the CORS middleware is ahead of SignalR.
             app.UseCors(builder =>
             {
-
+                
                 builder
-                    .WithOrigins("http://localhost:5003")
+                    .WithOrigins(
+                        "http://localhost:5003", // Web App
+                        "http://localhost:8100" // Ionic App
+                    )
                     .AllowAnyHeader()
-                    .WithMethods("GET", "POST")
+                    .AllowAnyMethod()
                     .AllowCredentials();
             });
 
